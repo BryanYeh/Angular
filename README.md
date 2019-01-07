@@ -1,5 +1,5 @@
 Angular Class
 
-1. [my-first-app](my-first-app)
-2. [my-project](my-project)
-3. [basic-assignment-1](basic-assignment-1)
+1. [First App](my-first-app)
+2. [My Project](my-project)
+3. [Assignment 1](basic-assignment-one)
