@@ -21,8 +21,8 @@ export class AppComponent {
   onUpdateUsername(event)
   {
     this.username = event.target.value.trim();
-    this.canReset = this.username != "";
-    this.defaultProfile = this.username != "" ? this.slugify(this.username) : "default-profile" ;
+    this.canReset = this.username !== "";
+    this.defaultProfile = this.username !== "" ? this.slugify(this.username) : "default-profile" ;
   }
 
   slugify(text: string){
