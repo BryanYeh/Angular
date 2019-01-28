@@ -1,0 +1,10 @@
+<div class="card card-container">
+  <img id="profile-img" class="profile-img-card" src="https://api.adorable.io/avatars/192/{{ defaultProfile }}.png" />
+  <p id="profile-name" class="profile-name-card"></p>
+  <form class="form-signin">
+    <span id="reauth-email" class="reauth-email"></span>
+    <input type="text" id="username" class="form-control" placeholder="Username" value="{{ username }}" required autofocus (input)="onUpdateUsername($event)">
+    <p>{{ username }}</p>
+    <button class="btn btn-lg btn-primary btn-block btn-signin" type="reset" [disabled]="!canReset" (click)="onReset()">Reset</button>
+  </form>
+</div>
