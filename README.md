@@ -4,3 +4,4 @@ Angular Class
 2. [My Project](my-project)
 3. [Assignment 1](basic-assignment-one)
 4. [Assignment 2](basic-assignment-two)
+5. [Assignment 3](basic-assignment-three)
